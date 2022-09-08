@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net48;netstandard2.0;net6.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="TSLab.DataSource">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.DataSource.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.Script">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.Script.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.Script.Handlers">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.Script.Handlers.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.ScriptEngine">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.ScriptEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.ScriptExecution">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.ScriptExecution.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.TradeDataModel">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.TradeDataModel.dll</HintPath>
+	  </Reference>
+	  <Reference Include="TSLab.Utility">
+	    <HintPath>Packages\TsLabNetFr47\TSLab.Utility.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
